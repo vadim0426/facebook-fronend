@@ -21,5 +21,12 @@ module.exports = function(defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
 
+  app.import('vendor/custom.js');
+  app.import('vendor/bootstrap.js');
+  app.import('vendor/smartresize.js');
+  app.import('vendor/bootstrap.min.css');
+  app.import('vendor/font-awesome.min.css');
+  app.import('vendor/fastclick.js');
+
   return app.toTree();
 };
