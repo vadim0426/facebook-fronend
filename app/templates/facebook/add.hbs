@@ -30,7 +30,10 @@
           </div>
           <div class="x_content">
             <br />
-            <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+            <form id="ad-create-form" data-parsley-validate class="form-horizontal form-label-left">
+              <div id="response-error" class="alert alert-danger alert-dismissible fade in" role="alert">
+                <strong>{{error}}</strong>
+              </div>
               <div class="form-group">
                 <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Title (for backend) <span class="required">*</span>
                 </label>

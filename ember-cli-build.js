@@ -27,6 +27,7 @@ module.exports = function(defaults) {
   app.import('vendor/bootstrap.min.css');
   app.import('vendor/font-awesome.min.css');
   app.import('vendor/fastclick.js');
+  app.import('vendor/parsley.min.js');
 
   return app.toTree();
 };
